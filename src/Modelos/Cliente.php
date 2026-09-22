@@ -1,4 +1,5 @@
 <?php 
+namespace App\Modelos;
 class Cliente{
     private int $id;
     private string $nombre;

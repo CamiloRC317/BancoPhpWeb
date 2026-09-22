@@ -1,0 +1,19 @@
+{
+    "name": "aprendiz/banco-completo-php",
+    "description": "Sistema bancario",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Redondo",
+            "email": "juancamiloredondo2008@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
