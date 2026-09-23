@@ -10,7 +10,7 @@ class RepositorioCliente{
 
     public function __construct()
     {
-       $pdo=Conexion::obtener();
+       $this->pdo=Conexion::obtener();
     }
     public function ObtenerUsuarios():array{
         $sql = "SELECT * FROM clientes";
